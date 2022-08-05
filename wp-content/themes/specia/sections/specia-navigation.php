@@ -87,18 +87,17 @@
 	                            </nav>
 	                            <div class="menu-right">
 	                                <ul class="wrap-right">
-	                                    <li class="search-button">
+	                                   <!--  <li class="search-button">
 	                                        <a href="#" id="view-search-btn" class="header-search-toggle"><i class="fa fa-search"></i></a>
-	                                        <!-- Quik search -->
+	                                         
 	                                        <div class="view-search-btn header-search-popup">
 	                                            <form method="get" class="search-form" action="<?php echo esc_url( home_url( '/' ) ); ?>" aria-label="<?php esc_attr_e( 'Site Search', 'specia' ); ?>">
 	                                                <span class="screen-reader-text"><?php esc_html_e( 'Search for:', 'specia' ); ?></span>
 	                                                <input type="search" class="search-field header-search-field" placeholder="<?php esc_attr_e( 'Type To Search', 'specia' ); ?>" name="s" id="popfocus" value="" autofocus>
 	                                                <a href="#" class="close-style header-search-close"></a>
 	                                            </form>
-	                                        </div>
-	                                        <!-- / -->
-	                                    </li>
+	                                        </div>	                                        
+	                                    </li> -->
 										<?php 
 										 $specia_header_cart	= get_theme_mod('header_cart','1');
 										if($specia_header_cart == '1'){ ?>
